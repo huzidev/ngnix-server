@@ -75,7 +75,11 @@ Direct installer (64-bit):
 2. Under **"Host Name (or IP address)"**, enter:
 
    ```
-   167.172.2.62
+    167.172.2.62  
+    104.248.55.101  
+    143.198.123.45  
+    68.183.77.200  
+    159.89.32.150
    ```
 
 3. Ensure **Port** is set to `22` (default for SSH).
