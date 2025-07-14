@@ -1,3 +1,4 @@
+
 # 🚀 PM2 & PuTTY Guide for NGINX Server Management
 
 ## 🔐 Connecting to the Server via PuTTY
@@ -162,5 +163,34 @@ pm2 logs main
 - Use `pm2 save` to persist your PM2 process list after reboot.
 - Use `pm2 startup` to configure PM2 to launch on boot.
 - To monitor PM2 in real-time: `pm2 monit`
+
+---
+
+## 🗑️ Deleting Existing File
+
+Navigate to the path where the file is located:
+
+```bash
+cd /home/apps
+rm ecosystem.config.js
+```
+
+Replace `ecosystem.config.js` with your file name as needed.
+
+---
+
+## 📄 Creating a New File
+
+Use the `nano` command to create or edit a file:
+
+```bash
+nano ecosystem.config.js
+```
+
+Paste your content inside the editor, then press:
+
+- `Ctrl + X` to exit
+- Press `Y` to confirm saving
+- Press `Enter` to confirm the file name
 
 ---
